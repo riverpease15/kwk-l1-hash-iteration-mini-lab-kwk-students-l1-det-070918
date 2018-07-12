@@ -15,6 +15,7 @@ def iterate_through_hash
   add_a_key_value_pair.each do |year, place|
   puts "The #{year} summer olympics took place in #{place}."
 end
+end
 
 
 iterate_through_hash
