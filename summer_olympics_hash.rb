@@ -19,8 +19,6 @@ def iterate_through_hash
 end
 end
 
-
-
 iterate_through_hash
 
 
