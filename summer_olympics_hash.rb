@@ -6,7 +6,7 @@ end
 
 def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
-  puts create_olympics_hash[:Atlanta] = 1996
+  create_olympics_hash[:Atlanta] = 1996
 end
 
 def iterate_through_hash
