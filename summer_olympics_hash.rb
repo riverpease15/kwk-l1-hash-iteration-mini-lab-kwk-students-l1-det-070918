@@ -6,14 +6,15 @@ end
 
 def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
-  create_olympics_hash[:Atlanta] = 1996
-  puts create_olympics_hash
+  new_hash = create_olympics_hash
+  new_hash[:Atlanta] = 1996
+  new_hash
 end
 
 def iterate_through_hash
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
-  add_a_key_value_pair.each do |year, place|
+  create_olympics_hash.each do |year, place|
   puts "The #{year} summer olympics took place in #{place}."
 end
 end
